@@ -1,5 +1,5 @@
 import { resolve } from 'path';
-import { defineConfig, createLogger } from 'vite';
+import { createLogger, defineConfig } from 'vite';
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
 
 const root = resolve(__dirname, 'src');
