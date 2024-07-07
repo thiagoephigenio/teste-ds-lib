@@ -1,0 +1,23 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeLens": true,
+  "editor.formatOnSave": true,
+  "editor.trimAutoWhitespace": true,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.enabled": false,
+  "cSpell.language": "pt-BR,en-US,pt",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "prettier.configPath": ".prettier.config.js",
+  "prettier.resolveGlobalModules": true,
+  "prettier.useEditorConfig": true,
+  "prettier.withNodeModules": false
+}
