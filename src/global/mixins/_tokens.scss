@@ -1,0 +1,11 @@
+@mixin tokens($map, $name: '') {
+  @each $index, $value in $map {
+    --#{$name}#{$index}: #{$value};
+  }
+}
+
+@mixin token-color($map) {
+  @each $key, $value in $map {
+    --#{$key}: #{$value};
+  }
+}
